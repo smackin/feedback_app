@@ -52,7 +52,7 @@ class User(db.Model):
             else: 
                 return False
             
-class Feedback(db.Model):
+class FeedbackForm(db.Model):
     """Feedback Model"""
     
     ___tablename___ = "feedback"
